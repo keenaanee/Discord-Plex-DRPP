@@ -9,7 +9,7 @@ cinema account).
 
 ## Pull from DockerHub
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/keenaanee/plex-discord-bot)](https://hub.docker.com/r/keenaanee/plex-discord-bot)
+[![Docker Pulls](https://img.shields.io/docker/pulls/keenaanee/discord-plex-drpp)](https://hub.docker.com/r/keenaanee/discord-plex-drpp)
 
 ## What it does
 
@@ -67,3 +67,4 @@ docker run -d \
   --restart unless-stopped \
 
   your-docker-user/plex-discord-bot
+
