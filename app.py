@@ -1,6 +1,5 @@
 import os
 import time
-
 import discord
 from discord import Activity, ActivityType
 from discord.ext import tasks
@@ -54,7 +53,7 @@ async def poll():
                 year = f" ({session.year})" if getattr(session, "year", None) else ""
                 details = f"{session.title}{year}"
                 main_line = details
-                state_text = "Movie"
+                state_text = details
                 large = "movie"
 
             elif session.type == "episode":
